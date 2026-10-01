@@ -1,0 +1,106 @@
+
+Astron Services — Build Start
+Cleaning dist/...
+Copying assets...
+
+Building pages...
+  Built: / (home)
+  Built: /about/
+  Built: /contact/
+  Built: /ac-repair-replacement/
+  Built: /furnace-repair-replacement/
+  Built: /duct-repair/
+  Built: /indoor-air-quality/
+  Built: /water-heater-repair-replacement/
+  Built: /water-service/
+  Built: /faucet-repair/
+  Built: /drain-cleaning/
+  Built: /wichita/
+  Built: /derby/
+  Built: /andover/
+  Built: /haysville/
+  Built: /maize/
+  Built: /park-city/
+  Built: /goddard/
+  Built: /bel-aire/
+  Built: /valley-center/
+  Built: /ac-repair-replacement-wichita/
+  Built: /ac-repair-replacement-derby/
+  Built: /ac-repair-replacement-andover/
+  Built: /ac-repair-replacement-haysville/
+  Built: /ac-repair-replacement-maize/
+  Built: /ac-repair-replacement-park-city/
+  Built: /ac-repair-replacement-goddard/
+  Built: /ac-repair-replacement-bel-aire/
+  Built: /ac-repair-replacement-valley-center/
+  Built: /furnace-repair-replacement-wichita/
+  Built: /furnace-repair-replacement-derby/
+  Built: /furnace-repair-replacement-andover/
+  Built: /furnace-repair-replacement-haysville/
+  Built: /furnace-repair-replacement-maize/
+  Built: /furnace-repair-replacement-park-city/
+  Built: /furnace-repair-replacement-goddard/
+  Built: /furnace-repair-replacement-bel-aire/
+  Built: /furnace-repair-replacement-valley-center/
+  Built: /duct-repair-wichita/
+  Built: /duct-repair-derby/
+  Built: /duct-repair-andover/
+  Built: /duct-repair-haysville/
+  Built: /duct-repair-maize/
+  Built: /duct-repair-park-city/
+  Built: /duct-repair-goddard/
+  Built: /duct-repair-bel-aire/
+  Built: /duct-repair-valley-center/
+  Built: /indoor-air-quality-wichita/
+  Built: /indoor-air-quality-derby/
+  Built: /indoor-air-quality-andover/
+  Built: /indoor-air-quality-haysville/
+  Built: /indoor-air-quality-maize/
+  Built: /indoor-air-quality-park-city/
+  Built: /indoor-air-quality-goddard/
+  Built: /indoor-air-quality-bel-aire/
+  Built: /indoor-air-quality-valley-center/
+  Built: /water-heater-repair-replacement-wichita/
+  Built: /water-heater-repair-replacement-derby/
+  Built: /water-heater-repair-replacement-andover/
+  Built: /water-heater-repair-replacement-haysville/
+  Built: /water-heater-repair-replacement-maize/
+  Built: /water-heater-repair-replacement-park-city/
+  Built: /water-heater-repair-replacement-goddard/
+  Built: /water-heater-repair-replacement-bel-aire/
+  Built: /water-heater-repair-replacement-valley-center/
+  Built: /water-service-wichita/
+  Built: /water-service-derby/
+  Built: /water-service-andover/
+  Built: /water-service-haysville/
+  Built: /water-service-maize/
+  Built: /water-service-park-city/
+  Built: /water-service-goddard/
+  Built: /water-service-bel-aire/
+  Built: /water-service-valley-center/
+  Built: /faucet-repair-wichita/
+  Built: /faucet-repair-derby/
+  Built: /faucet-repair-andover/
+  Built: /faucet-repair-haysville/
+  Built: /faucet-repair-maize/
+  Built: /faucet-repair-park-city/
+  Built: /faucet-repair-goddard/
+  Built: /faucet-repair-bel-aire/
+  Built: /faucet-repair-valley-center/
+  Built: /drain-cleaning-wichita/
+  Built: /drain-cleaning-derby/
+  Built: /drain-cleaning-andover/
+  Built: /drain-cleaning-haysville/
+  Built: /drain-cleaning-maize/
+  Built: /drain-cleaning-park-city/
+  Built: /drain-cleaning-goddard/
+  Built: /drain-cleaning-bel-aire/
+  Built: /drain-cleaning-valley-center/
+  Built: /service-areas/
+  Built: /privacy-policy/
+  Built: 404.html
+  Sitemap: 94 URLs → dist/sitemap.xml
+
+Build complete!
+Pages built: 95
+Output: C:\Users\KillerGrowth\.openclaw\workspace\sites\astron-services\dist
