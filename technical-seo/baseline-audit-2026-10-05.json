@@ -1,0 +1,52 @@
+{
+  "clientSlug": "astron-services",
+  "runDate": "2026-10-05",
+  "runType": "baseline-audit-pre-launch",
+  "siteStatus": "building (noindex, not yet on live domain)",
+  "checksRun": 10,
+  "checksPassed": 9,
+  "checksFailed": 1,
+  "results": {
+    "T1_urlStructure": "pass",
+    "T2_canonicalTags": "pass - self-referencing, correct domain on all pages checked",
+    "T3_h1Keyword": "pass - spot-checked homepage + service pillar",
+    "T4_schemaMarkup": "pass - HVACBusiness+FAQPage+Article on homepage, Service+FAQPage+BreadcrumbList on service pages, HVACBusiness+BreadcrumbList on new /services/ hub",
+    "T5_altText": "pass - 0 images missing/empty alt text across all pages",
+    "T6_telLinks": "pass - tel:3169250125 formatted correctly",
+    "T7_ogTwitterTags": "pass - full 4-tag OG + Twitter Card on all pages checked",
+    "T8_napConsistency": "pass - 5025 E. Kellogg, Wichita KS / (316) 925-0125 consistent across schema, footer, header",
+    "T9_robotsNoindex": "expected - noindex,nofollow correctly applied site-wide (pre-launch), do not flip until Tyler N approves",
+    "V1_duplicateTitles": "FIXED 2026-10-05 - /wichita/ title changed from 'Plumbing, Heating & Cooling in Wichita, KS | Astron Services' (duplicate of homepage) to 'Wichita, KS Plumbing, Heating & Cooling Service | Astron Services'. Re-verified: 0 duplicate titles across all 96 pages.",
+    "V2_duplicateMetas": "pass - no duplicate meta descriptions found",
+    "V4_brokenInternalLinks": "FIXED 2026-10-05 - built new /services/ hub page (dist/services/index.html) listing all 8 service cards with HVACBusiness+BreadcrumbList schema; build.js and lib/build-pages-2.js updated to generate it on every build. Re-verified: 0 broken internal links site-wide (excluding /blog/, which is expected to 404 until first blog post exists - handled correctly by build-sitemap.js, not a defect).",
+    "V5_orphanPages": "pass - every page has >=1 inbound internal link",
+    "V6_schemaValidation": "not yet run - needs Google Rich Results Test / schema.org validator pass",
+    "V7_psiMobileScore": "not yet run - needs PageSpeed Insights baseline",
+    "V8_coreWebVitals": "not yet run - needs CWV lab data baseline",
+    "V9_gscSitemapSubmit": "blocked - cannot submit until domain is live (sites.json shows no repo/domain/liveUrl assigned yet)"
+  },
+  "issuesFlagged": [
+    {
+      "checkId": "V4b",
+      "severity": "info",
+      "description": "/blog/ linked in nav site-wide; dist/blog/ does not exist yet because no posts have been written. build-sitemap.js already handles this correctly once posts exist.",
+      "url": "site-wide nav",
+      "action": "No action needed until blog content work begins; not a build defect"
+    }
+  ],
+  "fixesApplied": [
+    {
+      "date": "2026-10-05",
+      "issue": "V1 - duplicate title tag (homepage vs /wichita/)",
+      "fix": "Changed /wichita/ pageTitle in lib/build-pages-2.js buildLocationPage()",
+      "verifiedBy": "rebuild + full-site duplicate-title scan, 0 duplicates found"
+    },
+    {
+      "date": "2026-10-05",
+      "issue": "V4 - /services/ nav link had no corresponding route",
+      "fix": "Added buildServicesHub() to lib/build-pages-2.js, wired into build.js main() pipeline, generates dist/services/index.html with service card grid + schema",
+      "verifiedBy": "rebuild + full-site broken-link scan, 0 broken links (excl. not-yet-built /blog/)"
+    }
+  ],
+  "notes": "Site not yet on live domain, repo, or staging - sites.json shows all three blank. Both pre-launch blockers found in the 2026-10-05 baseline run (duplicate title, dead /services/ link) have been fixed and re-verified via rebuild. Remaining pre-launch items (not blockers, can't run until staging exists): schema validator pass, PSI/CWV baseline, GSC property + sitemap submission at launch."
+}

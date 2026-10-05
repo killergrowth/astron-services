@@ -1,11 +1,11 @@
 {
-  "name": "frosty-s-heating-and-air",
+  "name": "astron-services",
   "version": "1.0.0",
-  "description": "Frosty's Heating and Air — KillerGrowth AI-built site (PKG002)",
+  "description": "Astron Services LLC — KillerGrowth AI-built site (PKG002)",
   "scripts": {
     "build": "node build.js",
     "dev": "node build.js && npx wrangler pages dev dist",
-    "deploy:staging": "node build.js && npx wrangler pages deploy dist --project-name frosty-s-heating-and-air --branch staging --commit-dirty"
+    "deploy:staging": "node build.js && npx wrangler pages deploy dist --project-name astron-services --branch staging --commit-dirty"
   },
   "private": true
 }

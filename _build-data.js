@@ -44,15 +44,15 @@ module.exports = {
 <p>Astron Services serves residential and light commercial customers throughout {city} and the surrounding Wichita metro area.</p>`,
     },
     {
-      name: "Furnace Repair & Replacement",
-      slug: "furnace-repair-replacement",
-      comboSlug: "furnace-repair-replacement",
-      title: "Furnace Repair & Replacement",
-      h1: "Furnace Repair & Replacement in {city}, KS",
-      description: "Astron Services repairs and replaces furnaces for homes and light commercial properties in {city}, Kansas. Fast diagnostics, honest pricing, no hidden fees.",
-      body: `<p>A furnace breakdown during a Kansas winter is not something {city} homeowners can afford to wait on. Astron Services responds quickly to diagnose the issue and walks you through your repair and replacement options in plain language &mdash; no pressure, no hidden fees.</p>
-<p>For older systems nearing the end of their service life, we install high-efficiency RUUD furnaces sized correctly for your home. Correct sizing and installation matter as much as the equipment itself, and our technicians take the time to get both right.</p>
-<p>From emergency furnace repair to planned replacement, Astron Services keeps {city} homes and businesses warm and comfortable all winter.</p>`,
+      name: "Drain Cleaning",
+      slug: "drain-cleaning",
+      comboSlug: "drain-cleaning",
+      title: "Drain Cleaning",
+      h1: "Drain Cleaning in {city}, KS",
+      description: "Astron Services clears slow and clogged drains for homes and light commercial properties in {city}, Kansas. (Main sewer line cleaning not currently offered.)",
+      body: `<p>Slow or clogged drains are more than a nuisance &mdash; left unaddressed, they can lead to bigger plumbing problems down the line. Astron Services clears clogged sink, tub, and shower drains for {city} homeowners and light commercial properties.</p>
+<p>Our technicians use the right tools for the job to clear the blockage completely, not just push it further down the line.</p>
+<p>Please note: Astron Services does not currently offer main sewer line cleaning. For all other drain cleaning needs in {city}, give us a call.</p>`,
     },
     {
       name: "Duct Repair",
@@ -64,6 +64,28 @@ module.exports = {
       body: `<p>Leaking or poorly sealed ductwork forces your heating and cooling system to work harder than it should, driving up energy bills and leaving some rooms in your {city} home too hot or too cold. Astron Services inspects your duct system to find leaks, disconnections, and insulation gaps that are costing you comfort and money.</p>
 <p>Our technicians repair and seal ductwork to restore even airflow throughout your {city} property, improving both efficiency and indoor comfort.</p>
 <p>Whether you've noticed uneven temperatures room to room or a spike in your utility bills, Astron Services can track down the source and fix it.</p>`,
+    },
+    {
+      name: "Faucet Repair",
+      slug: "faucet-repair",
+      comboSlug: "faucet-repair",
+      title: "Faucet Repair",
+      h1: "Faucet Repair in {city}, KS",
+      description: "Astron Services repairs and replaces leaking, dripping, and broken faucets for homes and light commercial properties in {city}, Kansas.",
+      body: `<p>A dripping or leaking faucet wastes water and money every day it goes unfixed. Astron Services repairs and replaces faucets for {city} homeowners and light commercial properties, addressing the issue at the source rather than a temporary patch.</p>
+<p>Whether it's a worn cartridge, a failing seal, or a faucet that's simply reached the end of its life, our technicians get the job done right the first time.</p>
+<p>Astron Services serves {city} and the surrounding Wichita metro area for faucet repair and replacement.</p>`,
+    },
+    {
+      name: "Furnace Repair & Replacement",
+      slug: "furnace-repair-replacement",
+      comboSlug: "furnace-repair-replacement",
+      title: "Furnace Repair & Replacement",
+      h1: "Furnace Repair & Replacement in {city}, KS",
+      description: "Astron Services repairs and replaces furnaces for homes and light commercial properties in {city}, Kansas. Fast diagnostics, honest pricing, no hidden fees.",
+      body: `<p>A furnace breakdown during a Kansas winter is not something {city} homeowners can afford to wait on. Astron Services responds quickly to diagnose the issue and walks you through your repair and replacement options in plain language &mdash; no pressure, no hidden fees.</p>
+<p>For older systems nearing the end of their service life, we install high-efficiency RUUD furnaces sized correctly for your home. Correct sizing and installation matter as much as the equipment itself, and our technicians take the time to get both right.</p>
+<p>From emergency furnace repair to planned replacement, Astron Services keeps {city} homes and businesses warm and comfortable all winter.</p>`,
     },
     {
       name: "Indoor Air Quality",
@@ -98,40 +120,18 @@ module.exports = {
 <p>Astron Services handles water service repairs and installations with the same precision we bring to every job, keeping disruption to your home or business to a minimum.</p>
 <p>If you're dealing with water pressure problems or a suspected line issue in {city}, our team can assess the situation and give you a clear path forward.</p>`,
     },
-    {
-      name: "Faucet Repair",
-      slug: "faucet-repair",
-      comboSlug: "faucet-repair",
-      title: "Faucet Repair",
-      h1: "Faucet Repair in {city}, KS",
-      description: "Astron Services repairs and replaces leaking, dripping, and broken faucets for homes and light commercial properties in {city}, Kansas.",
-      body: `<p>A dripping or leaking faucet wastes water and money every day it goes unfixed. Astron Services repairs and replaces faucets for {city} homeowners and light commercial properties, addressing the issue at the source rather than a temporary patch.</p>
-<p>Whether it's a worn cartridge, a failing seal, or a faucet that's simply reached the end of its life, our technicians get the job done right the first time.</p>
-<p>Astron Services serves {city} and the surrounding Wichita metro area for faucet repair and replacement.</p>`,
-    },
-    {
-      name: "Drain Cleaning",
-      slug: "drain-cleaning",
-      comboSlug: "drain-cleaning",
-      title: "Drain Cleaning",
-      h1: "Drain Cleaning in {city}, KS",
-      description: "Astron Services clears slow and clogged drains for homes and light commercial properties in {city}, Kansas. (Main sewer line cleaning not currently offered.)",
-      body: `<p>Slow or clogged drains are more than a nuisance &mdash; left unaddressed, they can lead to bigger plumbing problems down the line. Astron Services clears clogged sink, tub, and shower drains for {city} homeowners and light commercial properties.</p>
-<p>Our technicians use the right tools for the job to clear the blockage completely, not just push it further down the line.</p>
-<p>Please note: Astron Services does not currently offer main sewer line cleaning. For all other drain cleaning needs in {city}, give us a call.</p>`,
-    },
   ],
 
   cities: [
-    { name: "Wichita",       slug: "wichita",       county: "Sedgwick", population: "397,532", state: "KS", lat: "37.6872", lng: "-97.3301" },
-    { name: "Derby",         slug: "derby",         county: "Sedgwick", population: "25,625",  state: "KS", lat: "37.5536", lng: "-97.2681" },
     { name: "Andover",       slug: "andover",       county: "Butler",   population: "15,277",  state: "KS", lat: "37.7164", lng: "-97.1395" },
+    { name: "Bel Aire",      slug: "bel-aire",      county: "Sedgwick", population: "8,262",   state: "KS", lat: "37.7470", lng: "-97.2334" },
+    { name: "Derby",         slug: "derby",         county: "Sedgwick", population: "25,625",  state: "KS", lat: "37.5536", lng: "-97.2681" },
+    { name: "Goddard",       slug: "goddard",       county: "Sedgwick", population: "5,120",   state: "KS", lat: "37.6611", lng: "-97.5700" },
     { name: "Haysville",     slug: "haysville",     county: "Sedgwick", population: "11,098",  state: "KS", lat: "37.5643", lng: "-97.3520" },
     { name: "Maize",         slug: "maize",         county: "Sedgwick", population: "4,898",   state: "KS", lat: "37.7731", lng: "-97.4653" },
     { name: "Park City",     slug: "park-city",     county: "Sedgwick", population: "8,333",   state: "KS", lat: "37.7939", lng: "-97.3089" },
-    { name: "Goddard",       slug: "goddard",       county: "Sedgwick", population: "5,120",   state: "KS", lat: "37.6611", lng: "-97.5700" },
-    { name: "Bel Aire",      slug: "bel-aire",      county: "Sedgwick", population: "8,262",   state: "KS", lat: "37.7470", lng: "-97.2334" },
     { name: "Valley Center", slug: "valley-center", county: "Sedgwick", population: "7,340",   state: "KS", lat: "37.8394", lng: "-97.3706" },
+    { name: "Wichita",       slug: "wichita",       county: "Sedgwick", population: "397,532", state: "KS", lat: "37.6872", lng: "-97.3301" },
   ],
 
   // Reviews sourced from Astron Services' live Google review widget (Trustindex) on

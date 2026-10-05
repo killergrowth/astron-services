@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const { copyAssets, DIST, services, cities } = require('./lib/shared');
 const { buildHome, buildAbout, buildContact, buildServicePage } = require('./lib/build-pages');
-const { buildLocationPage, buildComboPage, buildServiceAreasHub, buildPrivacyPolicy, build404 } = require('./lib/build-pages-2');
+const { buildLocationPage, buildComboPage, buildServicesHub, buildServiceAreasHub, buildBlogComingSoon, buildPrivacyPolicy, build404 } = require('./lib/build-pages-2');
 const { buildSitemap } = require('./lib/build-sitemap');
 
 async function main() {
@@ -31,7 +31,9 @@ async function main() {
     for (const city of cities) buildComboPage(svc, city);
   }
 
+  buildServicesHub();
   buildServiceAreasHub();
+  buildBlogComingSoon();
   buildPrivacyPolicy();
   build404();
   buildSitemap();
