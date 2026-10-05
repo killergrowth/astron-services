@@ -2,3 +2,7 @@
 *.log
 .DS_Store
 pid.txt
+
+deploy-pid*.txt
+build-*.log
+deploy-*.log
