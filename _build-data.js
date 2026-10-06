@@ -39,9 +39,13 @@ module.exports = {
       title: "AC Repair & Replacement",
       h1: "AC Repair & Replacement in {city}, KS",
       description: "Astron Services provides fast, reliable AC repair and replacement for homes and light commercial properties in {city}, Kansas. Licensed technicians, honest pricing.",
+      hubDescription: "Astron Services provides fast, reliable AC repair and replacement for homes and light commercial properties. Licensed technicians, honest pricing.",
       body: `<p>When summer temperatures climb in {city}, a failing air conditioner is more than an inconvenience. Astron Services diagnoses AC problems quickly and gives you a clear, honest assessment of whether a repair or a full replacement makes the most sense for your system's age and condition.</p>
 <p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job with precision from the first visit to the final test.</p>
 <p>Astron Services serves residential and light commercial customers throughout {city} and the surrounding Wichita metro area.</p>`,
+      hubBody: `<p>When summer temperatures climb, a failing air conditioner is more than an inconvenience. Astron Services diagnoses AC problems quickly and gives you a clear, honest assessment of whether a repair or a full replacement makes the most sense for your system's age and condition.</p>
+<p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job with precision from the first visit to the final test.</p>
+<p>Astron Services serves residential and light commercial customers with the same honest, precision-focused approach on every job.</p>`,
     },
     {
       name: "Drain Cleaning",
@@ -50,9 +54,13 @@ module.exports = {
       title: "Drain Cleaning",
       h1: "Drain Cleaning in {city}, KS",
       description: "Astron Services clears slow and clogged drains for homes and light commercial properties in {city}, Kansas. (Main sewer line cleaning not currently offered.)",
+      hubDescription: "Astron Services clears slow and clogged drains for homes and light commercial properties. (Main sewer line cleaning not currently offered.)",
       body: `<p>Slow or clogged drains are more than a nuisance &mdash; left unaddressed, they can lead to bigger plumbing problems down the line. Astron Services clears clogged sink, tub, and shower drains for {city} homeowners and light commercial properties.</p>
 <p>Our technicians use the right tools for the job to clear the blockage completely, not just push it further down the line.</p>
 <p>Please note: Astron Services does not currently offer main sewer line cleaning. For all other drain cleaning needs in {city}, give us a call.</p>`,
+      hubBody: `<p>Slow or clogged drains are more than a nuisance &mdash; left unaddressed, they can lead to bigger plumbing problems down the line. Astron Services clears clogged sink, tub, and shower drains for homeowners and light commercial properties.</p>
+<p>Our technicians use the right tools for the job to clear the blockage completely, not just push it further down the line.</p>
+<p>Please note: Astron Services does not currently offer main sewer line cleaning. For all other drain cleaning needs, give us a call.</p>`,
     },
     {
       name: "Duct Repair",
@@ -61,8 +69,12 @@ module.exports = {
       title: "Duct Repair",
       h1: "Duct Repair in {city}, KS",
       description: "Astron Services repairs leaking, damaged, and inefficient ductwork for homes and light commercial properties in {city}, Kansas.",
+      hubDescription: "Astron Services repairs leaking, damaged, and inefficient ductwork for homes and light commercial properties.",
       body: `<p>Leaking or poorly sealed ductwork forces your heating and cooling system to work harder than it should, driving up energy bills and leaving some rooms in your {city} home too hot or too cold. Astron Services inspects your duct system to find leaks, disconnections, and insulation gaps that are costing you comfort and money.</p>
 <p>Our technicians repair and seal ductwork to restore even airflow throughout your {city} property, improving both efficiency and indoor comfort.</p>
+<p>Whether you've noticed uneven temperatures room to room or a spike in your utility bills, Astron Services can track down the source and fix it.</p>`,
+      hubBody: `<p>Leaking or poorly sealed ductwork forces your heating and cooling system to work harder than it should, driving up energy bills and leaving some rooms in your home too hot or too cold. Astron Services inspects your duct system to find leaks, disconnections, and insulation gaps that are costing you comfort and money.</p>
+<p>Our technicians repair and seal ductwork to restore even airflow throughout your property, improving both efficiency and indoor comfort.</p>
 <p>Whether you've noticed uneven temperatures room to room or a spike in your utility bills, Astron Services can track down the source and fix it.</p>`,
     },
     {
@@ -72,9 +84,13 @@ module.exports = {
       title: "Faucet Repair",
       h1: "Faucet Repair in {city}, KS",
       description: "Astron Services repairs and replaces leaking, dripping, and broken faucets for homes and light commercial properties in {city}, Kansas.",
+      hubDescription: "Astron Services repairs and replaces leaking, dripping, and broken faucets for homes and light commercial properties.",
       body: `<p>A dripping or leaking faucet wastes water and money every day it goes unfixed. Astron Services repairs and replaces faucets for {city} homeowners and light commercial properties, addressing the issue at the source rather than a temporary patch.</p>
 <p>Whether it's a worn cartridge, a failing seal, or a faucet that's simply reached the end of its life, our technicians get the job done right the first time.</p>
 <p>Astron Services serves {city} and the surrounding Wichita metro area for faucet repair and replacement.</p>`,
+      hubBody: `<p>A dripping or leaking faucet wastes water and money every day it goes unfixed. Astron Services repairs and replaces faucets for homeowners and light commercial properties, addressing the issue at the source rather than a temporary patch.</p>
+<p>Whether it's a worn cartridge, a failing seal, or a faucet that's simply reached the end of its life, our technicians get the job done right the first time.</p>
+<p>Astron Services handles faucet repair and replacement with the same precision on every call.</p>`,
     },
     {
       name: "Furnace Repair & Replacement",
@@ -83,9 +99,13 @@ module.exports = {
       title: "Furnace Repair & Replacement",
       h1: "Furnace Repair & Replacement in {city}, KS",
       description: "Astron Services repairs and replaces furnaces for homes and light commercial properties in {city}, Kansas. Fast diagnostics, honest pricing, no hidden fees.",
+      hubDescription: "Astron Services repairs and replaces furnaces for homes and light commercial properties. Fast diagnostics, honest pricing, no hidden fees.",
       body: `<p>A furnace breakdown during a Kansas winter is not something {city} homeowners can afford to wait on. Astron Services responds quickly to diagnose the issue and walks you through your repair and replacement options in plain language &mdash; no pressure, no hidden fees.</p>
 <p>For older systems nearing the end of their service life, we install high-efficiency RUUD furnaces sized correctly for your home. Correct sizing and installation matter as much as the equipment itself, and our technicians take the time to get both right.</p>
 <p>From emergency furnace repair to planned replacement, Astron Services keeps {city} homes and businesses warm and comfortable all winter.</p>`,
+      hubBody: `<p>A furnace breakdown during a Kansas winter is not something homeowners can afford to wait on. Astron Services responds quickly to diagnose the issue and walks you through your repair and replacement options in plain language &mdash; no pressure, no hidden fees.</p>
+<p>For older systems nearing the end of their service life, we install high-efficiency RUUD furnaces sized correctly for your home. Correct sizing and installation matter as much as the equipment itself, and our technicians take the time to get both right.</p>
+<p>From emergency furnace repair to planned replacement, Astron Services keeps homes and businesses warm and comfortable all winter.</p>`,
     },
     {
       name: "Indoor Air Quality",
@@ -94,8 +114,12 @@ module.exports = {
       title: "Indoor Air Quality",
       h1: "Indoor Air Quality Solutions in {city}, KS",
       description: "Astron Services installs indoor air quality solutions for homes and light commercial properties in {city}, Kansas &mdash; filtration, humidity control, and more.",
+      hubDescription: "Astron Services installs indoor air quality solutions for homes and light commercial properties &mdash; filtration, humidity control, and more.",
       body: `<p>The air inside your {city} home can carry more dust, allergens, and humidity problems than most homeowners realize. Astron Services installs indoor air quality solutions designed to address the specific issues affecting your home's comfort and air cleanliness.</p>
 <p>From advanced filtration systems to humidity control, we help {city} homeowners breathe easier and protect their HVAC equipment from the wear caused by poor air quality.</p>
+<p>Our technicians assess your home's specific needs before recommending a solution &mdash; no one-size-fits-all packages, just what actually solves your problem.</p>`,
+      hubBody: `<p>The air inside your home can carry more dust, allergens, and humidity problems than most homeowners realize. Astron Services installs indoor air quality solutions designed to address the specific issues affecting your home's comfort and air cleanliness.</p>
+<p>From advanced filtration systems to humidity control, we help homeowners breathe easier and protect their HVAC equipment from the wear caused by poor air quality.</p>
 <p>Our technicians assess your home's specific needs before recommending a solution &mdash; no one-size-fits-all packages, just what actually solves your problem.</p>`,
     },
     {
@@ -105,9 +129,13 @@ module.exports = {
       title: "Water Heater Repair & Replacement",
       h1: "Water Heater Repair & Replacement in {city}, KS",
       description: "Astron Services repairs and replaces water heaters for homes and light commercial properties in {city}, Kansas. Fast response, honest pricing.",
+      hubDescription: "Astron Services repairs and replaces water heaters for homes and light commercial properties. Fast response, honest pricing.",
       body: `<p>No hot water is a problem that can't wait. Astron Services responds quickly to diagnose water heater issues for {city} homeowners and light commercial properties, whether the fix is a simple repair or it's time for a full replacement.</p>
 <p>We install reliable water heater systems sized correctly for your household's demand, with clear pricing explained before any work begins.</p>
 <p>From tank repairs to full replacements, Astron Services keeps hot water flowing for {city} homes and businesses.</p>`,
+      hubBody: `<p>No hot water is a problem that can't wait. Astron Services responds quickly to diagnose water heater issues for homeowners and light commercial properties, whether the fix is a simple repair or it's time for a full replacement.</p>
+<p>We install reliable water heater systems sized correctly for your household's demand, with clear pricing explained before any work begins.</p>
+<p>From tank repairs to full replacements, Astron Services keeps hot water flowing for homes and businesses.</p>`,
     },
     {
       name: "Water Service",
@@ -116,9 +144,13 @@ module.exports = {
       title: "Water Service",
       h1: "Water Service in {city}, KS",
       description: "Astron Services provides water service repair and installation for homes and light commercial properties in {city}, Kansas.",
+      hubDescription: "Astron Services provides water service repair and installation for homes and light commercial properties.",
       body: `<p>Water service line issues &mdash; from reduced pressure to leaks to full line failures &mdash; require a technician who can accurately diagnose the problem and recommend the right fix for your {city} property.</p>
 <p>Astron Services handles water service repairs and installations with the same precision we bring to every job, keeping disruption to your home or business to a minimum.</p>
 <p>If you're dealing with water pressure problems or a suspected line issue in {city}, our team can assess the situation and give you a clear path forward.</p>`,
+      hubBody: `<p>Water service line issues &mdash; from reduced pressure to leaks to full line failures &mdash; require a technician who can accurately diagnose the problem and recommend the right fix for your property.</p>
+<p>Astron Services handles water service repairs and installations with the same precision we bring to every job, keeping disruption to your home or business to a minimum.</p>
+<p>If you're dealing with water pressure problems or a suspected line issue, our team can assess the situation and give you a clear path forward.</p>`,
     },
   ],
 
