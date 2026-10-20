@@ -14,8 +14,8 @@ module.exports = {
     lat: "37.6872",
     lng: "-97.3301",
     domain: "astronservicesks.com",
-    tagline: "Precision Comfort",
-    taglineShort: "Powered by Precision, Backed by the Stars",
+    tagline: "Service Without Compromise",
+    taglineShort: "Service Without Compromise",
     description: "Astron Services provides plumbing, heating, and cooling service throughout the Wichita metro area, focused primarily on residential and light commercial customers.",
     certifications: "RUUD Authorized Dealer",
     owner: "Brian Stupasky",
@@ -41,11 +41,11 @@ module.exports = {
       description: "Astron Services provides fast, reliable AC repair and replacement for homes and light commercial properties in {city}, Kansas. Licensed technicians, honest pricing.",
       hubDescription: "Astron Services provides fast, reliable AC repair and replacement for homes and light commercial properties. Licensed technicians, honest pricing.",
       body: `<p>When summer temperatures climb in {city}, a failing air conditioner is more than an inconvenience. Astron Services diagnoses AC problems quickly and gives you a clear, honest assessment of whether a repair or a full replacement makes the most sense for your system's age and condition.</p>
-<p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job with precision from the first visit to the final test.</p>
+<p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job right from the first visit to the final test.</p>
 <p>Astron Services serves residential and light commercial customers throughout {city} and the surrounding Wichita metro area.</p>`,
       hubBody: `<p>When summer temperatures climb, a failing air conditioner is more than an inconvenience. Astron Services diagnoses AC problems quickly and gives you a clear, honest assessment of whether a repair or a full replacement makes the most sense for your system's age and condition.</p>
-<p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job with precision from the first visit to the final test.</p>
-<p>Astron Services serves residential and light commercial customers with the same honest, precision-focused approach on every job.</p>`,
+<p>As an authorized RUUD dealer, we install high-efficiency cooling systems backed by manufacturer warranties and professional installation. Whether your unit needs a same-day repair or you're ready to upgrade to a more efficient system, our licensed technicians handle the job right from the first visit to the final test.</p>
+<p>Astron Services serves residential and light commercial customers with the same honest, no-compromise approach on every job.</p>`,
     },
     {
       name: "Drain Cleaning",
@@ -90,7 +90,7 @@ module.exports = {
 <p>Astron Services serves {city} and the surrounding Wichita metro area for faucet repair and replacement.</p>`,
       hubBody: `<p>A dripping or leaking faucet wastes water and money every day it goes unfixed. Astron Services repairs and replaces faucets for homeowners and light commercial properties, addressing the issue at the source rather than a temporary patch.</p>
 <p>Whether it's a worn cartridge, a failing seal, or a faucet that's simply reached the end of its life, our technicians get the job done right the first time.</p>
-<p>Astron Services handles faucet repair and replacement with the same precision on every call.</p>`,
+<p>Astron Services handles faucet repair and replacement with the same care on every call.</p>`,
     },
     {
       name: "Furnace Repair & Replacement",
@@ -146,10 +146,10 @@ module.exports = {
       description: "Astron Services provides water service repair and installation for homes and light commercial properties in {city}, Kansas.",
       hubDescription: "Astron Services provides water service repair and installation for homes and light commercial properties.",
       body: `<p>Water service line issues &mdash; from reduced pressure to leaks to full line failures &mdash; require a technician who can accurately diagnose the problem and recommend the right fix for your {city} property.</p>
-<p>Astron Services handles water service repairs and installations with the same precision we bring to every job, keeping disruption to your home or business to a minimum.</p>
+<p>Astron Services handles water service repairs and installations with the same care we bring to every job, keeping disruption to your home or business to a minimum.</p>
 <p>If you're dealing with water pressure problems or a suspected line issue in {city}, our team can assess the situation and give you a clear path forward.</p>`,
       hubBody: `<p>Water service line issues &mdash; from reduced pressure to leaks to full line failures &mdash; require a technician who can accurately diagnose the problem and recommend the right fix for your property.</p>
-<p>Astron Services handles water service repairs and installations with the same precision we bring to every job, keeping disruption to your home or business to a minimum.</p>
+<p>Astron Services handles water service repairs and installations with the same care we bring to every job, keeping disruption to your home or business to a minimum.</p>
 <p>If you're dealing with water pressure problems or a suspected line issue, our team can assess the situation and give you a clear path forward.</p>`,
     },
   ],
@@ -161,6 +161,7 @@ module.exports = {
     { name: "Goddard",       slug: "goddard",       county: "Sedgwick", population: "5,120",   state: "KS", lat: "37.6611", lng: "-97.5700" },
     { name: "Haysville",     slug: "haysville",     county: "Sedgwick", population: "11,098",  state: "KS", lat: "37.5643", lng: "-97.3520" },
     { name: "Maize",         slug: "maize",         county: "Sedgwick", population: "4,898",   state: "KS", lat: "37.7731", lng: "-97.4653" },
+    { name: "Mulvane",       slug: "mulvane",       county: "Sumner",   population: "6,590",   state: "KS", lat: "37.4792", lng: "-97.2397" },
     { name: "Park City",     slug: "park-city",     county: "Sedgwick", population: "8,333",   state: "KS", lat: "37.7939", lng: "-97.3089" },
     { name: "Valley Center", slug: "valley-center", county: "Sedgwick", population: "7,340",   state: "KS", lat: "37.8394", lng: "-97.3706" },
     { name: "Wichita",       slug: "wichita",       county: "Sedgwick", population: "397,532", state: "KS", lat: "37.6872", lng: "-97.3301" },
@@ -185,6 +186,6 @@ module.exports = {
     { title: "Locally Owned & Operated", body: "Astron Services is based right here in Wichita, not a franchise or call center dispatching from out of state." },
     { title: "RUUD Authorized Dealer", body: "We install high-efficiency RUUD heating and cooling systems backed by manufacturer warranties and professional installation." },
     { title: "Honest Pricing, No Hidden Fees", body: "You get a clear, honest price before any work begins. No surprise charges, no pressure." },
-    { title: "Licensed & Insured Technicians", body: "Every technician is licensed and insured, bringing precision and professionalism to every job." },
+    { title: "Licensed & Insured Technicians", body: "Every technician is licensed and insured, bringing skill and professionalism to every job." },
   ],
 };
