@@ -8,6 +8,7 @@ const { copyAssets, DIST, services, cities } = require('./lib/shared');
 const { buildHome, buildAbout, buildContact, buildServicePage } = require('./lib/build-pages');
 const { buildLocationPage, buildComboPage, buildServicesHub, buildServiceAreasHub, buildBlogComingSoon, buildPrivacyPolicy, build404 } = require('./lib/build-pages-2');
 const { buildSitemap } = require('./lib/build-sitemap');
+const { buildRedirects } = require('./lib/build-redirects');
 
 async function main() {
   console.log("\nAstron Services — Build Start");
@@ -37,6 +38,7 @@ async function main() {
   buildPrivacyPolicy();
   build404();
   buildSitemap();
+  buildRedirects();
 
   // Count built pages
   function countHtml(dir) {
